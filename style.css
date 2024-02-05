@@ -68,7 +68,7 @@ p {
 .button-2 {
   background-color: var(--Light-Blue);
   box-shadow: 1px 1px 15px 4px hsla(233, 100%, 69%, 0.2);
-  margin-bottom: 175px;
+  margin-bottom: 75px;
 }
 
 .second > h2 {
@@ -136,6 +136,10 @@ p {
 }
 .ninth {
   margin-bottom: 70px;
+}
+.button-1.aa, .button-2.bb {
+  padding: 20px 40px;
+  
 }
 footer {
   background-color: hsla(202, 11%, 66%, 0.082);
@@ -315,5 +319,12 @@ footer {
   }
   .social {
     margin: 0;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .inside-bottom > h4:hover {
+    cursor: pointer;
+    color: var(--Strong-Cyan);
   }
 }
